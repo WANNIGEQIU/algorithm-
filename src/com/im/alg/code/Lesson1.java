@@ -1,9 +1,9 @@
-package com.im.alg;
+package com.im.alg.code;
 
-import java.util.Arrays;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.NoSuchElementException;
+
 
 /**
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
@@ -19,7 +19,7 @@ import java.util.NoSuchElementException;
  * 链接：https://leetcode-cn.com/problems/two-sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class lesson1 {
+public class Lesson1 {
     /**
      * O(n^2)
      *
@@ -42,7 +42,7 @@ public class lesson1 {
     /**
      * 利用map 降低时间复杂度 k -存储元素, v -存储索引
      * 判断map中是否存入目标元素,没有放入map中,有返回下标索引
-     *
+     * O(n)
      * @param ints
      * @param target
      * @return
